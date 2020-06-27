@@ -1,4 +1,4 @@
- /**
+/**
  * Software Engineering - Summer 2020 
  */
 package myJavaProject;
@@ -13,10 +13,8 @@ public class myAppTester {
 	  System.out.println("Hello Software Engineering World");
 	  System.out.println("Input your number and press enter: ");
 	  n = input.nextInt();
-	  System.out.print("Reverse of the input number is : ");
+	  System.out.print("Reverse of the input number is:");
 	  reverseMethod(n);
-	  System.out.print("Addition of the number is : ");
-	  addMethod(n);
 	  System.out.println();
 
 	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
@@ -35,19 +33,13 @@ public class myAppTester {
 	       }
 	   }
 
+
 	   /* 
 	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...)*/
-	   public static void addMethod(int num) {
-	       if (num < 5) {
-		   System.out.println(num);
-		   return;
-	       }
-	       else {
-	           System.out.print(num+1);     
-	       }
-	   }
+	       public static void myTestMethod(...){
+            
+		   }
 	 
-	   
+	   */
 
 }
